@@ -1,0 +1,103 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    background: #1e1a20;
+}
+/*
+html,
+body
+{
+    overflow: hidden;
+}
+ **/
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+
+.section
+{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    font-family: 'Coronet script', serif;
+    color: #ffeded;
+    text-transform: uppercase;
+    font-size: 7vmin;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+section:nth-child(odd)
+{
+    justify-content: flex-end;
+}
+
+
+.text .label
+{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    font-family: 'Coronet script', serif;
+    color: #ffeded;
+    text-transform: uppercase;
+    font-size: 7vmin;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    transform: scale(0,0);
+    transition: transform 0.3s
+
+    
+}
+
+.text.visible .label
+{
+    transform: scale(1, 1);
+}
+
+
+
+
+.point .text
+{
+    position: absolute;
+    top: 30px;
+    left: -120px;
+    width: 200px;
+    padding: 20px;
+    border-radius: 4px;
+    background: #00000077;
+    border: 1px solid #ffffff77;
+    color: #ffffff;
+    line-height: 1.3em;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    /* ... */
+    opacity: 0;
+    /* ... */
+    transition: opacity 0.5s;
+     /* ... */
+     pointer-events: none;
+}
+
+
+
+
+
+/*# sourceMappingURL=main.css.map*/
