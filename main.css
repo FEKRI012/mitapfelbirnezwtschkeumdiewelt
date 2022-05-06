@@ -1,0 +1,71 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    background: #1e1a20;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+
+.slide {
+    width: 100vw;
+    height: 100vh;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 400vw;
+  }
+
+
+  .one {
+    background: #efdefe;
+  }
+
+  .titelText
+{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Coronet script', serif;
+    color: #ffeded;
+    text-transform: uppercase;
+    font-size: 7vmin;
+    text-align: center;
+    position: fixed;
+    top: 0%;
+    left: 20%;
+    right: 20%;
+    opacity: 1; 
+}
+
+
+
+
+
+
+  .two {
+    background: #a3f3d3;
+  }
+  .three {
+    background: #0bbaa0;
+  }
+  .four {
+    background: #00dfdf;
+  }
+
+  
+
+
+/*# sourceMappingURL=main.css.map*/
